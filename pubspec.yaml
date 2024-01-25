@@ -1,0 +1,32 @@
+name: flutter_games
+description: Flutter app for purchasing and renting games.
+publish_to: 'none'
+version: 1.0.0
+
+environment:
+  sdk: ">=3.0.0 <4.0.0"
+  flutter: ">=3.10.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.6
+  responsive_framework: ^1.1.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_launcher_icons: ^0.13.1
+
+flutter_icons:
+  android: true
+  ios: true
+  image_path_android: "assets/Game-Controller-Logo.png"
+  image_path_ios: "assets/Game-Controller-Logo-iOS.png"
+  adaptive_icon_background: "#FFFFFFFF"
+  adaptive_icon_foreground: "assets/Game-Controller-Logo-Adaptive.png"
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/
